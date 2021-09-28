@@ -1,0 +1,21 @@
+import java.util.*;
+ 
+public class reversedigit {
+ 
+    public static void main(String[] args) {
+        int x;
+        Scanner s= new Scanner(System.in);
+        System.out.println("enter number");
+
+        x=s.nextInt();//12345544466  -->54321
+        int rem;
+
+        while(x!=0)
+        {
+        rem=x%10;
+        System.out.print(rem);
+        x=x/10;
+        }
+    }
+ 
+}
